@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(245, 235, 211);
+}
+
+#divisao {
+    width: 100%;
+}
+
+#artigo {
+    width: 59%;
+    align-self: left;
+}
+
+#prop {
+    width: 39%;
+align-self: left;
+}
+
+aside {
+    width: 39%
+    
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+
+}
+
+h2 {
+    text-align: left;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+}
+
+#pri {
+    text-align: right;
+    color: green;
+}
+
+#menu {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: red;
+}
+
+#sec {
+    color: red;
+    text-align: right;
+}
+
+p {
+    text-align: right;
+}
+
+.teste {
+    text-align: Center;
+    text-decoration: wavy;
+    color: Orange;
+}
+
+.rodape:link {
+    color: black;
+
+}
+
+.rodape:visited {
+    color: red;
+}
+
+.rodape:hover {
+    font-size: larger;
+
+}
+
+a::after,
+a::before {
+    content: '_____';
+    color: gray;
+}
+
+#menu1 ul li {
+    font-size: 15px;
+    background-color: #000;
+    color: green;
+}
+
+#menu123>ul>li {
+    font-size: 15px;
+    background-color: #f53a3a;
+}

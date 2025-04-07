@@ -1,0 +1,71 @@
+h1, h2, h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.indentacao{
+    text-indent: 202px;
+    text-align: justify;
+}
+.letras{
+    letter-spacing: 5px;
+    text-align: justify;
+}
+.linha{
+    line-height: 5;
+    text-align: justify;
+
+}
+.palavras{
+    word-spacing: 20px;
+    text-align: justify;
+}
+.esquerda{
+    text-align: left;
+}
+.direita{
+    text-align: right;
+
+}
+.justificado{
+    text-align: justify;
+
+}
+.centro{
+    text-align: center;
+}
+#semsublinhar{
+    text-align: center;
+    text-decoration: none;
+    
+}
+#under{
+    text-decoration: underline;
+}
+body{
+    text-align: center;
+}
+.acima{
+    text-decoration: overline;
+}
+.riscado{
+    text-decoration:line-through;
+}
+.textonone{
+    text-transform: none;
+}
+.textoupper{
+    text-transform: uppercase;
+}
+.textolower{
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 200%;
+}
+.textocapital{
+    text-transform:capitalize;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.capita{
+    font-size: 40px;
+}

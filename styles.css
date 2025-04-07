@@ -1,0 +1,66 @@
+/* Definindo o estilo para o layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-decoration: underline;
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;      
+}
+.container {
+    display: flex; /* Usando Flexbox para criar as colunas */
+    justify-content: space-between; /* Espaçamento entre as colunas */
+    padding: 20px; /* Espaço dentro da container */
+}
+
+.coluna {
+    background-color: #f0f0f0; /* Cor de fundo das colunas */
+    border: 1px solid #ccc; /* Borda para as colunas */
+    padding: 20px;
+    width: 100%; /* Definindo o tamanho das colunas, ocupando 23% da largura total */
+    box-sizing: border-box; /* Inclui o padding e borda no tamanho total da coluna */
+}
+
+.coluna-2 {
+    background-color: #f0f0f0; /* Cor de fundo das colunas */
+    border: 1px solid #ccc; /* Borda para as colunas */
+    padding: 20px;
+    width: 49%; /* Definindo o tamanho das colunas, ocupando 23% da largura total */
+    box-sizing: border-box; /* Inclui o padding e borda no tamanho total da coluna */
+}
+
+.coluna-3 {
+    background-color: #f0f0f0; /* Cor de fundo das colunas */
+    border: 1px solid #ccc; /* Borda para as colunas */
+    padding: 20px;
+    width: 32%; /* Definindo o tamanho das colunas, ocupando 23% da largura total */
+    box-sizing: border-box; /* Inclui o padding e borda no tamanho total da coluna */
+}
+
+.coluna-4 {
+    background-color: #f0f0f0; /* Cor de fundo das colunas */
+    border: 1px solid #ccc; /* Borda para as colunas */
+    padding: 20px;
+    width: 24%; /* Definindo o tamanho das colunas, ocupando 23% da largura total */
+    box-sizing: border-box; /* Inclui o padding e borda no tamanho total da coluna */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Quando a tela for pequena, empilha as colunas */
+    }
+
+    .coluna, .coluna-2, .coluna-3, .coluna-4 {
+        width: 100%; /* As colunas ocuparão 100% da largura disponível */
+        margin-bottom: 10px; /* Espaço entre as colunas empilhadas */
+    }
+}

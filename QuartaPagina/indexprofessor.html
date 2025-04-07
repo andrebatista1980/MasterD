@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Formulário">
+<meta name="author" content="Sara Granja">
+<title>Prática 4 - Criação de formulário</title>
+</head>
+<body>
+<h1> Formulário </h1>
+<hr>
+<form>
+Nome <input type="text" id="text_name" name="nome"> <br>
+Introduza a sua password <input type="password" id="pass"
+name="palavra-passe"> <br>
+Data de Nascimento <input type="date" id="birthday" name="data nascimento"> <br>
+Telefone <input type="tel" id="phone" name="telefone" placeholder="123-456-789"
+pattern="[0-9][0-9][0-9]-[[0-9][0-9][0-9][0-9][0-9][0-
+9]"> <br>
+E_mail <input type="email" name="e-mail" id="e-mail"> <br>
+Género <br>
+<input type="radio" id="male" name="gender" value="male">
+Masculino <br>
+<input type="radio" id="female" name="gender"
+value="female"> Feminino <br>
+<input type="radio" id="other" name="gender" value="other">
+Outro <br>
+Nacionalidade <br>
+<select name="select">
+<option value="nacionalidade">Portuguesa</option>
+<option value="nacionalidade">Outra</option>
+</select> <br>
+Escolheu este curso por motivos profissionais? <br>
+<input type="checkbox" id="box" name="sim" value="sim" checked> SIM <br>
+<input type="checkbox" id="box" name="nao" value="nao">
+NÃO <br>
+Descreva as suas motivações para frequentar este curso. <br>
+<textarea cols="50" rows="20" name="descrição"></textarea>
+<br>
+Numa escala de 1 a 5 como avalia este curso? <br>
+<input type="range" id="range" name="range" min="0" max="5">
+<br>
+<hr>
+<button type="submit"> Enviar formulário</button>
+<button type="reset"> Apagar formulário </button>
+</form>
+</body>
+</html>
