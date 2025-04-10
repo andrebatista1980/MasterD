@@ -1,0 +1,138 @@
+header {
+    text-align: center;
+    /* centrar texto */
+    background-color: #0D0D0D;
+    /* aplicar cor de fundo */
+}
+
+h1,
+h2,
+h3 {
+    color: #F2C3A7;
+    /* cor de títulos */
+}
+
+h1 {
+    font-size: 56px;
+    /* tamanho de fonte do h1 */
+    
+}
+h1::after, h1::before{
+    content: "...";
+}
+
+h3 {
+    font-size: 30px;
+    /* tamanho de fonte do h3 */
+    text-decoration: underline;
+    /* título sublinhado */
+}
+
+p {
+    font-size: 36px;
+    /* tamanho de fonte do parágrafo */
+}
+
+nav,
+aside,
+footer {
+    text-align: center;
+    /* centrar texto */
+    font-size: 30px;
+    /* tamanho de fonte */
+}
+
+nav,
+aside {
+    background-color: #F2A477;
+    /* aplicar cor de fundo */
+}
+
+footer {
+    background-color: #0D0D0D;
+    /* aplicar cor de fundo */
+}
+
+#picJD {
+    width: 300px;
+    /* largura de imagem */
+}
+
+.nomepagina {
+    font-size: 44px;
+    /* tamanho da fonte */
+    text-align: right;
+    /* alinhamento à direita */
+    color: #F2A35E;
+    /* cor da fonte */
+}
+
+.paragrafo2 {
+    background-color: #F2C3A7;
+    /* aplicar cor de fundo ao paragrafo2*/
+}
+
+span#JohnDoe_text {
+    font-weight: bold;
+    /* texto estilizado a negrito*/
+}
+
+
+a:link,
+a:visited,
+a:hover {
+    color: white;
+    /* cor dos links */
+    text-decoration: none;
+    /* links sem sublinhado */
+}
+
+a:hover {
+    /* quando o rato passa sobre o link */
+    font-size: 36px;
+    /* tamanho da fonte */
+    color: #0D0D0D;
+    /* tamanho do link */
+}
+
+a.botao {
+    background-color: #F2C3A7;
+    /* cor de fundo do botão */
+    color: #0D0D0D;
+    /* cor do texto do botão */
+    font-size: 24px;
+    /* tamanho do texto do botão */
+
+}
+
+a:hover {
+    /* quando o rato passa sobre o botão */
+    background-color: white;
+    /* cor de fundo do botão */
+    color: black;
+    /* cor do texto do botão */
+    font-size: 42px;
+    /* tamanho do texto do botão */
+}
+div.gostos{
+    background-color: blue;
+}
+.gostos h3{
+    font-family: "lucida Console";
+    text-transform: uppercase;
+}
+.gostos H4{
+    text-indent: 30px;
+    color: red;
+    letter-spacing: 30px;
+}
+.gostos li{
+    color: white;
+}
+#picplane-JD, #picbook-JD{
+    width: 400px;
+}
+.mais_sobre{
+    font-style: italic;
+    color:white;
+}
