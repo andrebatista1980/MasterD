@@ -123,8 +123,10 @@ div.gostos{
 }
 .gostos H4{
     text-indent: 30px;
-    color: red;
+    color: #00F0F0;
     letter-spacing: 30px;
+    opacity:1;
+    text-transform: uppercase;
 }
 .gostos li{
     color: white;
