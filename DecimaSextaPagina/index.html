@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,41 +9,99 @@
     <meta name="author" content="André Batista">
     <meta name="category" content="Exercicio de Cores e Bordas">
     <style>
-        #principal{
+        #principal {
             width: 100%;
             height: 500px;
             border: black, 2px, 2px, 2px, 2px;
+            white-space: nowrap;
         }
-        .caixa1{
-            width: 60%;
+
+        .caixa1 {
+            width: 59%;
             height: 300px;
             background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            white-space: nowrap;
         }
-        #meu-paragrafo{
+
+        #meu-paragrafo {
             font-style: inherit;
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 50px;
             padding: 100px;
             color: white;
+            white-space: nowrap;
         }
-        .caixa2{
-            width: 40%;
+
+        .caixa2 {
+            width: 39%;
             height: 300px;
-            background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+            background-image: radial-gradient(closest-side at 20% 80%, red, orange, yellow, green, blue, indigo, violet);
+            white-space: nowrap;
+        }
+
+        .tam-1 {
+            width: 440px;
+            height: 200px;
+            background-image: radial-gradient(circle closest-side at 20% 80%, red, orange, yellow, green, blue, indigo, violet);
+        }
+
+        .tam-2 {
+            width: 440px;
+            height: 200px;
+            background-image: radial-gradient(farthest-side at 50% 50%, red, orange, yellow, green, blue, indigo, violet);
+        }
+
+        .tam-3 {
+            width: 440px;
+            height: 200pX;
+            background-image: radial-gradient(farthest-corner at 75% 25%, red, blue, yellow)
+        }
+
+        .tam-4 {
+            width: 440px;
+            height: 200pX;
+            background-image: repeating-radial-gradient(circle closest-corner at 20% 90%, red, blue, yellow)
+        }
+        .conico{
+            width: 300px;
+            height:300px;
+            border-style:dashed;
+            background-image: repeating-conic-gradient(from 135deg, red, blue, yellow);
         }
     </style>
 </head>
+
 <body>
     <div id="Principal">
-    
-    <div class="caixa1">
-        <p id="meu-paragrafo">Vai ficar tudo bem!</p>
-    </div>
-    <div class="caixa2">
 
+        <div class="caixa1">
+            <p id="meu-paragrafo">Vai ficar tudo bem!</p>
+        </div>
+        <div class="caixa2">
+            <input type="color" name="Cores" id="cor"> cores
+        </div>
+        <div class="tam-1">
+            <p>closest-side </p>
+
+        </div>
+        <div class="tam-2">
+            <p>farthest-side</p>
+
+        </div>
+        <div class="tam-3">
+            <p>farthest-corner </p>
+
+        </div>
+        <div class="tam-4">
+            <p>closest-corner </p>
+
+        </div><br>
+        <div class="conico">
+            <p>Conico Gradiente</p>
+        </div>
     </div>
-</div>
-    
+
 </body>
+
 </html>
