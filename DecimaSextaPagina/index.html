@@ -9,7 +9,7 @@
     <meta name="author" content="André Batista">
     <meta name="category" content="Exercicio de Cores e Bordas">
     <style>
-        #principal {
+        .principal {
             width: 100%;
             height: 500px;
             border: black, 2px, 2px, 2px, 2px;
@@ -41,39 +41,62 @@
         }
 
         .tam-1 {
-            width: 440px;
+            width: 15%;
             height: 200px;
             background-image: radial-gradient(circle closest-side at 20% 80%, red, orange, yellow, green, blue, indigo, violet);
         }
 
         .tam-2 {
-            width: 440px;
+            width: 15%;
             height: 200px;
             background-image: radial-gradient(farthest-side at 50% 50%, red, orange, yellow, green, blue, indigo, violet);
         }
 
         .tam-3 {
-            width: 440px;
-            height: 200pX;
+            width: 15%;
+            height: 200px;
+            border-style: solid;
+            border-width: 5px;
+            border-radius: 10%;
             background-image: radial-gradient(farthest-corner at 75% 25%, red, blue, yellow)
         }
 
         .tam-4 {
-            width: 440px;
-            height: 200pX;
+            width: 15%;
+            height: 200px;
+            border-style: solid;
+            border-width: 5px;
             background-image: repeating-radial-gradient(circle closest-corner at 20% 90%, red, blue, yellow)
         }
-        .conico{
+
+        .conico {
             width: 300px;
-            height:300px;
-            border-style:dashed;
+            height: 300px;
+            border-style: solid;
+            border-width: thick;
             background-image: repeating-conic-gradient(from 135deg, red, blue, yellow);
+        }
+
+        @media(max-width: 768px) {
+            .principal {
+                flex-direction: column;
+            }
+
+            .tam-1,
+            .tam-2,
+            .tam-3,
+            .tam-4 {
+                width: 100%;
+                /* As colunas ocuparão 100% da largura disponível */
+                margin-bottom: 10px;
+                /* Espaço entre as colunas empilhadas */
+            }
         }
     </style>
 </head>
 
 <body>
-    <div id="Principal">
+    <div class="Principal">
 
         <div class="caixa1">
             <p id="meu-paragrafo">Vai ficar tudo bem!</p>
@@ -88,11 +111,11 @@
         <div class="tam-2">
             <p>farthest-side</p>
 
-        </div>
+        </div><br>
         <div class="tam-3">
             <p>farthest-corner </p>
 
-        </div>
+        </div><br>
         <div class="tam-4">
             <p>closest-corner </p>
 
