@@ -1,0 +1,85 @@
+body {
+    width:100%;
+    text-align: center;
+}
+span{
+    font-style: italic;
+}
+h2{
+    
+    font-size: 20px;
+    font-family: arial;
+    margin-left: 20px;
+    border-left: 10px solid #f57b42;
+    padding-left: 5px;
+    background-color: rgba(245, 123, 66, 0.3);
+}
+.principal {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.primeira {
+
+    text-align: center;
+    background-image: url(_imagens/logoMasterD.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.masterd {
+    font-style: italic;
+}
+
+.segunda {
+    width: 100%;
+    height: 400px;
+    background-image: url(_imagens/glass-quadro-homem-mulher.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 50px;
+    color:lightcyan;
+    font-weight: bold;
+}
+
+.faixa {
+    color: orange;
+    font-size: 40px;
+    background-color: lightgray;
+}
+#botao{
+    font-size: large;
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+}
+.terceira{
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    border-style: dotted;
+    border-color: orange;
+    background-color: lightyellow;
+}
+.cursos{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    border-style: solid;
+    border-left:25%;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left-color: blue;
+    background-color: lightsalmon;
+    
+}
+ul {
+    line-height: 30px;
+}
+
+
+
