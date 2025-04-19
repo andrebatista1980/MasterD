@@ -1,12 +1,14 @@
 body {
-    width:100%;
+    width: 100%;
     text-align: center;
 }
-span{
+
+span {
     font-style: italic;
 }
-h2{
-    
+
+h2 {
+
     font-size: 20px;
     font-family: arial;
     margin-left: 20px;
@@ -14,18 +16,21 @@ h2{
     padding-left: 5px;
     background-color: rgba(245, 123, 66, 0.3);
 }
+
 .principal {
     width: 100%;
-    height: 200px;
+    height: auto;
     text-align: center;
 }
 
 .primeira {
-
+    font-size: 50px;
+    font-weight: bold;
+    color: salmon;
     text-align: center;
     background-image: url(_imagens/logoMasterD.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center center;
 }
 
 .masterd {
@@ -40,7 +45,7 @@ h2{
     background-repeat: no-repeat;
     background-size: 100%;
     font-size: 50px;
-    color:lightcyan;
+    color: lightcyan;
     font-weight: bold;
 }
 
@@ -49,13 +54,15 @@ h2{
     font-size: 40px;
     background-color: lightgray;
 }
-#botao{
+
+#botao {
     font-size: large;
     width: 200px;
     height: 50px;
     background-color: orange;
 }
-.terceira{
+
+.terceira {
     text-align: left;
     width: 80%;
     margin: auto;
@@ -63,23 +70,22 @@ h2{
     border-color: orange;
     background-color: lightyellow;
 }
-.cursos{
+
+.cursos {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     width: auto;
     border-style: solid;
-    border-left:25%;
+    border-left: 25%;
     border-top: none;
     border-right: none;
     border-bottom: none;
     border-left-color: blue;
     background-color: lightsalmon;
-    
+
 }
+
 ul {
     line-height: 30px;
 }
-
-
-
