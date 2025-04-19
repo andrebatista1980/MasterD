@@ -1,0 +1,149 @@
+header {
+    text-align: center;
+    background-color: #0D0D0D;
+}
+
+h1,
+h2,
+h3 {
+    color: #F2C3A7;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 36px;
+}
+
+nav,
+aside,
+footer {
+    text-align: center;
+    font-size: 30px;
+}
+
+nav {
+    background-color: #F2A477;
+}
+
+aside {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-image: url(../images/fundoaside.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+footer {
+    background-color: #0D0D0D;
+}
+
+#picJD {
+    width: 300px;
+}
+
+.nomepagina {
+    font-size: 44px;
+    text-align: right;
+    color: #F2A35E;
+    background-image: linear-gradient(to right, #F2A35E, #ffffff);
+}
+
+.paragrafo2 {
+    background-color: #F2C3A7;
+}
+
+span#JohnDoe_text {
+    font-weight: bold;
+}
+
+h1::before,
+h1::after {
+    content: ". . .";
+    color: #F2C3A7;
+}
+
+a:link,
+a:visited,
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 36px;
+    color: #0D0D0D;
+}
+
+div.gostos {
+    background-color: #0D0D0D;
+}
+
+#tit_gosto {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #F2C3A7;
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+.preferidos,
+li {
+    color: white;
+}
+
+#picplane-JD,
+#picbook-JD {
+    width: 400px;
+}
+
+.mais_sobre {
+    color: white;
+    font-style: italic;
+}
+
+a.botao {
+    background-color: #F2C3A7;
+    color: #0D0D0D;
+    font-size: 24px;
+
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    font-size: 42px;
+}
+
+#viajar {
+    background-color: gray;
+}
+.link-1{
+    text-align: center;
+    color: white;
+
+}.link-1:hover{
+    font-size: 60px;
+    text-decoration: underline;
+    color: black;
+}
