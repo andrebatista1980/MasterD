@@ -1,0 +1,24 @@
+.principal{
+    max-width: 100%;
+    margin: auto;
+    border: 3px solid black;
+    background-color: lightgray;
+}
+.primeira{
+    max-width: 30%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: gray;
+}
+.segunda{
+    max-width: 30%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: gray;
+}
+.terceira{
+    max-width: 35%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: gray;
+}
