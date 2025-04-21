@@ -1,24 +1,57 @@
-.principal{
+.principal {
     max-width: 100%;
     margin: auto;
     border: 3px solid black;
     background-color: lightgray;
+
 }
-.primeira{
-    max-width: 30%;
+
+.primeira {
+    max-width: 100%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: gray;
+
+}
+
+.segunda {
+
+    max-width: 69%;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
+    overflow: auto;
+    background-color: gray;
+    display: inline-flex;
+}
+
+.terceira {
+    display: inline-flex;
+    max-width: 29%;
     margin: auto;
     border: 2px solid black;
     background-color: gray;
 }
-.segunda{
-    max-width: 30%;
-    margin: auto;
-    border: 2px solid black;
-    background-color: gray;
+
+.Imagem {
+    width: 400px;
+    height: 200px;
 }
-.terceira{
-    max-width: 35%;
-    margin: auto;
-    border: 2px solid black;
-    background-color: gray;
+
+.corte {
+    clip: rect(0px, 800px, 600px, 0px);
+    position: absolute;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
 }
