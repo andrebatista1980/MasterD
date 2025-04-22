@@ -22,7 +22,7 @@
     border: 2px solid black;
     overflow: auto;
     background-color: gray;
-    display: inline-flex;
+    display: none;
 }
 
 .terceira {
@@ -37,17 +37,22 @@
     width: 400px;
     height: 200px;
 }
+.quarta{
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+}
 
 .corte {
-    clip: rect(0px, 800px, 600px, 0px);
+    clip: inherit;
     position: absolute;
 
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+h1 {font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    display: inline;
+    text-align: center;
 }
 h2{
     text-align: center;
