@@ -22,7 +22,7 @@
     border: 2px solid black;
     overflow: auto;
     background-color: gray;
-    display: none;
+    display: inline-flex;
 }
 
 .terceira {
@@ -38,9 +38,20 @@
     height: 200px;
 }
 .quarta{
-    width: 400px;
-    height: 200px;
-    overflow: scroll;
+    max-width: 69%;
+    height: auto;
+    display: inline-flex;
+    background-color: gray;
+    border: 2px solid black;
+    margin: auto;
+}
+.quinta{
+    width: 29%;
+    height: auto;
+    background-color: gray;
+    border: 2px solid black;
+    display: inline-flex;
+    margin: auto;
 }
 
 .corte {
