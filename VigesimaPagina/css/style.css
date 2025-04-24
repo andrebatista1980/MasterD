@@ -1,0 +1,52 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:40px;
+    text-align: center;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: right;
+    border-left: 4px solid blue;
+    background-image: linear-gradient(to right, blue, cadetblue);
+
+}
+hr{
+    width: 50%;
+    color: white;
+}
+body{
+    background-color: cadetblue;
+    border: 3px solid black;
+    width: 98%;
+    height: auto;
+
+}
+.disco{
+    list-style-type: disc;
+}
+.circulo{
+    list-style-type: circle;
+}
+.quadrado{
+    list-style-type: square;
+}
+.decimal{
+    list-style-type: decimal;
+}
+.decimal0{
+    list-style-type: decimal-leading-zero;
+}
+.romanos{
+    list-style-type: lower-roman;
+}
+.romanosup{
+    list-style-type: upper-roman;
+}
+
+
