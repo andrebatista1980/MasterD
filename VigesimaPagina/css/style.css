@@ -48,5 +48,28 @@ body{
 .romanosup{
     list-style-type: upper-roman;
 }
+.gregapeq{
+    list-style-type: lower-greek;
+}
+.latimpeq{
+    list-style-type: lower-latin;
+}
 
-
+.latimgra{
+    list-style-type: upper-latin;
+}
+.armenia{
+    list-style-type: armenian;
+}
+.georgia{
+    list-style-type: georgian;
+}
+.alfapeq{
+    list-style-type: lower-alpha;
+}
+.alfagra{
+    list-style-type: upper-alpha;
+}
+.none{
+    list-style-type: none;
+}
