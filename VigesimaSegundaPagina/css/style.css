@@ -50,18 +50,20 @@ footer {
 
 .paragrafo2 {
     background-color: #F2C3A7;
-    display: inline-block;
-    max-width: 33%;
-    margin: auto;
 }
-.paragrafo {
+#foto{
+    max-width: 95%;
+}
+.paragrafo,
+.paragrafo2,
+#foto {
     display: inline-block;
     max-width: 33%;
     margin: auto;
 }
 
 span#JohnDoe_text {
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 h1::before,
@@ -164,11 +166,8 @@ a.link1:hover {
     text-decoration: underline;
     background-color: #F2A477;
 }
-#foto{
-    max-width: 33%;
-    display: inline-block;
-}
-#ler{
+
+#ler {
     width: 49%;
     display: inline-block;
 }
