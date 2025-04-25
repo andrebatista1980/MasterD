@@ -1,16 +1,25 @@
 .primeira{
-    border-left: 100px;
+    border-left: 5px;
     border-top: 5px;
     border-right: 5px;
     border-bottom: 5px;
     border-style: solid;
+    background-color: orange;
     border-color: orange;
-    background-color: lightsalmon;
     list-style-type: upper-roman;
-    list-style-position: outside;
     margin: auto;
 }
 .segunda{
-    border: 5px 5px 5px 5px solid lightblue;
-    list-style: square; 
+    border-left: 5px;
+    border-top: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    background-color: lightblue;
+    border-color: blue;
+    list-style-type: square;
+    margin: auto;
+}
+#texto1{
+    background-color: lightsalmon;
 }
