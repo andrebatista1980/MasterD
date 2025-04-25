@@ -1,0 +1,16 @@
+.primeira{
+    border-left: 100px;
+    border-top: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: orange;
+    background-color: lightsalmon;
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    margin: auto;
+}
+.segunda{
+    border: 5px 5px 5px 5px solid lightblue;
+    list-style: square; 
+}

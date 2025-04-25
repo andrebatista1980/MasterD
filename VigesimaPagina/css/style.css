@@ -73,3 +73,13 @@ body{
 .none{
     list-style-type: none;
 }
+.listaimg{
+    list-style-image: url(../image/icon-close.svg);
+}
+.listaposin{
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}.listaposout{
+    list-style-position: outside;
+    list-style-type: upper-roman;
+}
