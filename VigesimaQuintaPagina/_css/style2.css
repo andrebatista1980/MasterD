@@ -1,0 +1,15 @@
+#primeiraImagem{
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 50px;
+    z-index: 2;
+}
+#segundaImagem{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    z-index: -1;
+}
