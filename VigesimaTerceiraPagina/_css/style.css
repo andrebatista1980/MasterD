@@ -1,0 +1,23 @@
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 25%;
+    background-color: #fc0339;
+    color: white;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+  }
+  .sticky2{
+    bottom: 0;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    text-align: center;
+    left: 25%;
+    background-image: linear-gradient(to right, violet, blue);
+    width: 50%;
+    overflow: auto;
+    font-weight: bold;
+  }
