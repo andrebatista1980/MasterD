@@ -1,0 +1,58 @@
+h2 {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    background-color: cadetblue;
+    position: relative;
+    left: 25%;
+    right: 25%;
+}
+
+.container {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+
+
+}
+
+.topleft {
+    position: absolute;
+    z-index: 1;
+    font-size: 18px;
+}
+
+.topright {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    z-index: 1;
+    font-size: 18px;
+}
+
+.center {
+    position: absolute;
+    top: 750px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.bottomleft {
+    position: absolute;
+    top: 1520px;
+    left: 10px;
+    z-index: 1;
+}
+
+.bottomright {
+    position: absolute;
+    top: 1520px;
+    right: 3px;
+    z-index: 1;
+}
