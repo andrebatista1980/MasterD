@@ -3,9 +3,7 @@ h2 {
     text-align: center;
     padding: 20px;
     background-color: cadetblue;
-    position: relative;
-    left: 25%;
-    right: 25%;
+    margin: auto;
 }
 
 .container {
@@ -14,8 +12,6 @@ h2 {
 
 img {
     width: 100%;
-    position: absolute;
-    z-index: -1;
     opacity: 0.5;
 
 
@@ -23,21 +19,21 @@ img {
 
 .topleft {
     position: absolute;
-    z-index: 1;
     font-size: 18px;
+    top: 8px;
+    left: 16px;
 }
 
 .topright {
     position: absolute;
-    top: 3px;
-    right: 3px;
-    z-index: 1;
+    top: 8px;
+    right: 16px;
     font-size: 18px;
 }
 
 .center {
     position: absolute;
-    top: 750px;
+    top: 50%;
     width: 100%;
     text-align: center;
     font-size: 28px;
@@ -45,14 +41,15 @@ img {
 
 .bottomleft {
     position: absolute;
-    top: 1520px;
-    left: 10px;
-    z-index: 1;
+    bottom: 8px;
+    left: 16px;
+    font-size:18px;
+
 }
 
 .bottomright {
     position: absolute;
-    top: 1520px;
-    right: 3px;
-    z-index: 1;
+    bottom:8px;
+    right: 16px;
+    font-size:18px;
 }
