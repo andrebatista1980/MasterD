@@ -16,6 +16,8 @@ h1 {
 h3 {
     font-size: 30px;
     text-decoration: underline;
+    margin-left: 50px;
+    padding-top: 20px;
 }
 
 p {
@@ -76,6 +78,7 @@ a:hover {
 
 div.gostos {
     background-color: #0D0D0D;
+    margin-top: 50px;
 }
 
 #tit_gosto {
@@ -114,7 +117,6 @@ a.botao {
     background-color: #F2C3A7;
     color: #0D0D0D;
     font-size: 24px;
-
 }
 
 a:hover {
@@ -125,7 +127,8 @@ a:hover {
 
 /* novo codigo */
 article {
-    background-image: linear-gradient(to right, #F2A477, #F2C3A7, #ffffff);
+    background-image: linear-gradient(to right, #F2A477, #F2C3A7,
+            #ffffff);
 }
 
 #viajar {
@@ -135,7 +138,7 @@ article {
 aside {
     width: 100%;
     height: 200px;
-    background-image: url("https://www.joegastro.co.uk/wp-content/uploads/2016/08/footer-background.jpg");
+    background-image: url("https://www.joegastro.co.uk/wpcontent/uploads/2016/08/footer-background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -158,13 +161,41 @@ a.link1:hover {
 .paragrafo1,
 .paragrafo2,
 .quem-imagem {
-    max-width: 33%;
+    max-width: 28%;
     display: inline-block;
+    margin-left: 30px;
+    padding: 30px;
 }
 
 #ler,
 #viajar {
     border: 1px dotted white;
     display: inline-block;
-    width: 49%;
+    width: 45%;
+    padding: 2%;
+}
+
+#tit-header {
+    position: absolute;
+    width: 50%;
+    top: 350px;
+    left: 25%;
+}
+
+nav {
+    padding: 50px;
+}
+
+a.menu {
+    border-left: 6px solid white;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+
+.nomepagina {
+    padding: 50px 100px;
+}
+
+.pref-ler-viajar {
+    float: right;
 }

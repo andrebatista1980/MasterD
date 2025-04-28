@@ -1,0 +1,197 @@
+header {
+    text-align: center;
+    background-color: #0D0D0D;
+}
+
+#titulo {
+    position: inherit;
+    top: 350px;
+    left: 25%;
+    width: 50%;
+}
+
+h1,
+h2,
+h3 {
+    color: #F2C3A7;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+p {
+    font-size: 36px;
+}
+
+nav,
+aside,
+footer {
+    text-align: center;
+    font-size: 30px;
+}
+
+nav,
+aside {
+    background-color: #F2A477;
+}
+
+footer {
+    background-color: #0D0D0D;
+}
+
+#picJD {
+    width: 300px;
+}
+
+.nomepagina {
+    font-size: 44px;
+    text-align: right;
+    color: #F2A35E;
+    padding: 50px 100px;
+}
+
+.paragrafo2 {
+    background-color: #F2C3A7;
+}
+
+span#JohnDoe_text {
+    font-weight: bold;
+}
+
+h1::before,
+h1::after {
+    content: ". . .";
+    color: #F2C3A7;
+}
+
+a:link,
+a:visited,
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 36px;
+    color: #0D0D0D;
+}
+
+div.gostos {
+    background-color: #0D0D0D;
+    margin-top: 50px;
+}
+
+#tit_gosto {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-decoration: none;
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #F2C3A7;
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+.preferidos,
+li {
+    color: white;
+}
+
+#picplane-JD,
+#picbook-JD {
+    width: 400px;
+}
+
+.mais_sobre {
+    color: white;
+    font-style: italic;
+}
+
+a.botao {
+    background-color: #F2C3A7;
+    color: #0D0D0D;
+    font-size: 24px;
+
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    font-size: 42px;
+}
+
+/* novo codigo */
+article {
+    background-image: linear-gradient(to right, #F2A477, #F2C3A7, #ffffff);
+}
+
+#viajar {
+    background-color: #353535;
+}
+
+aside {
+    width: 100%;
+    height: 200px;
+    background-image: url("https://www.joegastro.co.uk/wp-content/uploads/2016/08/footer-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.link-1 {
+    text-align: center;
+}
+
+a.link1 {
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+a.link1:hover {
+    text-decoration: underline;
+    background-color: #F2A477;
+}
+
+.paragrafo1,
+.paragrafo2,
+.quem-imagem {
+    max-width: 33%;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 30px;
+}
+
+#ler,
+#viajar {
+    border: 1px dotted white;
+    display: inline-block;
+    width: 49%;
+    padding: 2%;
+}
+
+nav {
+    padding: 50px;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+
+nav a {}
+
+.preferidos {
+    float: right inherit;
+
+}
