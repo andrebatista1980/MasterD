@@ -32,5 +32,18 @@
     cursor: crosshair;
 }
 .url{
-    cursor: url(../_imagens/icon-close.svg), auto;
+    cursor: url(../_imagens/icon-close.svg);
+}
+.primeira, .segunda, .terceira{
+    width: 30%;
+    display: inline-block;
+    border: 2px double black;
+}
+h1{
+    text-align: center;
+}
+.imagem{
+    cursor: auto;
+    width: 50px;
+    height: auto;
 }
