@@ -1,0 +1,36 @@
+.default{
+    cursor: default;
+}
+.none{
+    cursor: none;
+}
+.pointer{
+    cursor: pointer;
+}
+.help{
+    cursor: help;
+}
+.wait{
+    cursor: wait;
+}
+.text{
+    cursor: text;
+}
+.progress{
+    cursor: progress;
+}
+.zoomin{
+    cursor:zoom-in;
+}
+.zoomout{
+    cursor: zoom-out;
+}
+.auto{
+    cursor: auto;
+}
+.crosshair{
+    cursor: crosshair;
+}
+.url{
+    cursor: url(../_imagens/icon-close.svg), auto;
+}
