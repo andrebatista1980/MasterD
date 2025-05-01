@@ -28,6 +28,7 @@ p{
     padding: 20px;
     width: 100%; /* Definindo o tamanho das colunas, ocupando 23% da largura total */
     box-sizing: border-box; /* Inclui o padding e borda no tamanho total da coluna */
+    box-shadow: 5px 10px 5px 10px black;
 }
 
 .coluna-2 {
@@ -36,6 +37,7 @@ p{
     padding: 20px;
     width: 49%; /* Definindo o tamanho das colunas, ocupando 23% da largura total */
     box-sizing: border-box; /* Inclui o padding e borda no tamanho total da coluna */
+    box-shadow: 5px 10px 5px 10px black;
 }
 
 .coluna-3 {
@@ -44,6 +46,7 @@ p{
     padding: 20px;
     width: 32%; /* Definindo o tamanho das colunas, ocupando 23% da largura total */
     box-sizing: border-box; /* Inclui o padding e borda no tamanho total da coluna */
+    box-shadow: 5px 10px 5px 10px black;
 }
 
 .coluna-4 {
@@ -52,6 +55,7 @@ p{
     padding: 20px;
     width: 24%; /* Definindo o tamanho das colunas, ocupando 23% da largura total */
     box-sizing: border-box; /* Inclui o padding e borda no tamanho total da coluna */
+    box-shadow: 5px 10px 5px 5px black;
 }
 
 @media (max-width: 768px) {
@@ -62,5 +66,6 @@ p{
     .coluna, .coluna-2, .coluna-3, .coluna-4 {
         width: 100%; /* As colunas ocuparão 100% da largura disponível */
         margin-bottom: 10px; /* Espaço entre as colunas empilhadas */
+        
     }
 }
