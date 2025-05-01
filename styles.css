@@ -1,6 +1,11 @@
 /* Definindo o estilo para o layout */
+
+@font-face{
+    font-family: starwars;
+    src:url(starjout/Starjout.ttf);
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: starwars;
     margin: 0;
     padding: 0;
 }
@@ -47,6 +52,7 @@ p{
     width: 32%; /* Definindo o tamanho das colunas, ocupando 23% da largura total */
     box-sizing: border-box; /* Inclui o padding e borda no tamanho total da coluna */
     box-shadow: 5px 10px 5px 10px black;
+    
 }
 
 .coluna-4 {
@@ -56,6 +62,8 @@ p{
     width: 24%; /* Definindo o tamanho das colunas, ocupando 23% da largura total */
     box-sizing: border-box; /* Inclui o padding e borda no tamanho total da coluna */
     box-shadow: 5px 10px 5px 5px black;
+    border-radius: 10px;
+
 }
 
 @media (max-width: 768px) {
