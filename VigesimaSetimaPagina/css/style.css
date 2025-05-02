@@ -6,14 +6,13 @@ header {
 #titulo {
     position: inherit;
     top: 350px;
-    left: 25%;
-    width: 50%;
+    text-align: center;
 }
 
 h1,
 h2,
 h3 {
-    color: #F2C3A7;
+    color: #F2C3A7; 
 }
 
 h1 {
@@ -87,6 +86,7 @@ a:hover {
 div.gostos {
     background-color: #0D0D0D;
     margin-top: 50px;
+    width: 100%;
 }
 
 #tit_gosto {
@@ -169,27 +169,24 @@ a.link1:hover {
 .paragrafo1,
 .paragrafo2,
 .quem-imagem {
-    max-width: 33%;
+    max-width: 32%;
     display: inline-block;
-    margin-left: 30px;
-    padding: 30px;
+    
 }
 
 #ler,
 #viajar {
     border: 1px dotted white;
     display: inline-block;
-    width: 49%;
+    width: 45%;
     padding: 2%;
 }
 
 nav {
     padding: 50px;
-    margin-left: 50px;
+    
     padding-left: 10px;
 }
-
-nav a {}
 
 .preferidos {
     float: right inherit;
