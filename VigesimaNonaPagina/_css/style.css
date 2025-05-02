@@ -1,0 +1,56 @@
+@font-face {
+    font-family: starwars1;
+    src: url(../_fonts/starjedi/Starjedi.ttf);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: starwars2;
+    src: url(../_fonts/starjout/Starjout.ttf) format(.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: starwars3;
+    src: url(../_fonts/stjedise/STJEDISE.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: starwars4;
+    src: url(../_fonts/stjelogo/Stjldbl1.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.primeira {
+    font-family: starwars1;
+    color: black;
+
+}
+
+.segunda {
+    font-family: starwars2;
+    color: black;
+}
+
+.terceira {
+    font-family: starwars3;
+    color: black;
+}
+
+.quarta {
+    font-family: starwars4;
+    color: black;
+}
+.titulo{
+    text-align: center;
+}
+hr{
+    width: 50%;
+    text-align: center;
+}
