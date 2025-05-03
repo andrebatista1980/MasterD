@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    background-image: url(../_images/aquarela.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 97%;
+    height: 100vh;
+    font-weight: bold;
+
+
+}
+
+hr {
+    color: black;
+    background-color: black;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 10px 20px;
+    margin: 25px 25px;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    padding: 2px;
+    font-size: smaller;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: cadetblue;
+}
+
+nav {
+    text-align: right
+}
+
+.menu_completo {
+    text-decoration: none;
+    width: 100%;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: black;
+    padding: 25px 25px;
+}
+
+article {
+    width: 100%;
+    display: inline-block;
+
+}
+
+h2 {
+
+    padding: 15px 25px;
+}
+
+p {
+    text-align: left;
+    margin: 10px;
+}
+
+.principal {
+    width: 100%;
+}
+
+.artigo {
+    width: 64%;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.lateral {
+    width: 100%;
+    float: right;
+    text-align: left;
+}
+
+.lado {
+    width: 30%;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 15px;
+    float: right;
+}
