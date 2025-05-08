@@ -20,18 +20,21 @@ ul {
     margin: 0;
     padding: 10px;
 }
-.active{
-	font-size: 19px;
-	font-weight:bold;
-	background-color: #edd1b9;
-	}
+
+.active {
+    font-size: 19px;
+    font-weight: bold;
+    background-color: #edd1b9;
+}
+
 li {
     display: inline;
     padding: 10px 20px;
     text-decoration: none;
     color: black;
 }
-li a{
+
+li a {
     padding: 15px 20px;
     text-align: center;
     text-decoration: none;
@@ -114,7 +117,30 @@ footer {
     font-size: 18px;
     font-weight: bold;
 }
-.final{
+
+.final {
     position: sticky;
     bottom: 0px;
 }
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 9    0px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+    padding: 12px 16px;
+    z-index: 1;
+    right: 0;
+}
+.menu-content a{
+    display: block;
+}
+.menu:hover .menu-content {
+    display: block;
+    }
