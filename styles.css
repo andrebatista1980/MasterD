@@ -93,7 +93,10 @@ p {
     border-radius: 10px;
 
 }
-
+.duaslinas{
+    row-gap: 2;
+    
+}
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
