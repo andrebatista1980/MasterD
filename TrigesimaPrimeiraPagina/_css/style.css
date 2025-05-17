@@ -144,3 +144,7 @@ footer {
 .menu:hover .menu-content {
     display: block;
     }
+.progresso{
+    width: 200px;
+    height: 100px;
+}
