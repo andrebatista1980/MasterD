@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina com tamanhos de imagens diferentes</title>
+    <meta name="author" content="André Batista">
+    <meta name="description" content="Pagina com tamanhos de imagens diferentes">
+    <link rel="stylesheet" href="_css/style.css">
+    <script src="https://kit.fontawesome.com/88f1b2facc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="menuPrincipal">
+        <i class="fa-solid fa-bars"></i>
+        <div class="menuCompleto">
+            <a href="#" target="_self" rel="prev"><i class="fa-solid fa-house">&nbsp;Home</i></a><br>
+            <a href="imagens.html" target="_self" rel="next"><i class="fa-solid fa-image">&nbsp;Imagens</i></a><br>
+            <a href="contato.html" target="_self" rel="next"><i class="fa-solid fa-address-book">&nbsp;Contato</i></a><br>
+        </div>
+    </nav>
+    <picture>
+        <source media="(max-width: 400px)" srcset="_images/Logo-350x233.jpg" type="image/jpeg">
+        <source media="(max-width: 800px)" srcset="_images/Logo-700x466.jpg" type="image/jpeg">
+        <img src="_images/Logo-1000x666.jpg" alt="Funcionando com tamanhos de imagens diferentes">
+    </picture>
+    <h1>Testes de Imagens com tamanhos diferentes</h1>
+
+
+</body>
+
+</html>
