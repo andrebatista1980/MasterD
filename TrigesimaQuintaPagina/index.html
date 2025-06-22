@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,28 @@
     <meta name="Description" content="Teste de imagens diferente tamanhos">
     <link rel="stylesheet" href="_css/style.css">
 </head>
+
 <body>
-    <h1>Teste de imagens de diferentes tamanhos</h1>
+    <h1>Teste de imagens</h1>
+    <h1>de diferentes tamanhos</h1>
     <picture>
         <source media="(max-width: 350px )" srcset="_images/foto-p.png" type="image/png">
         <source media="(max-width: 750px)" srcset="_images/foto-m.png" type="image/png">
         <source media="(max-width: 1050px)" srcset="_images/foto-g.png" type="image/png">
         <img src="_images/foto-g.png" alt="Imagem de exemplo">
     </picture>
-    
+    <h1>Teste de audio</h1>
+    <audio preload="metadata" controls autoplay>
+        <source src="_media/The Ramones - Pet Semetary.mp3" type="audio/mpeg">
+        <p>Seu navegador não consegue abrir audios</p>
+    </audio>
+    <h1>Teste de Video</h1>
+    <br>
+    <video width="50%" poster="_images/foto-p.png" preload="metadata" controls>
+        <source src="_videos/Guardiões.da.Galáxia.2017.IMAX.720p.BluRay.x264.DUBLADO-WWW.BLUDV.COM.mp4" type="video/mp4">
+        source src="_videos/Guardiões.da.Galáxia.2017.IMAX.720p.BluRay.x264.DUBLADO-WWW.BLUDV.COM.webm" type="video/webm">
+        <p>Seu navegador não consegue abrir videos</p>
+    </video>
 </body>
+
 </html>
